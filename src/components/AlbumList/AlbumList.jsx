@@ -4,7 +4,7 @@ import { collection, onSnapshot } from 'firebase/firestore'
 import Album from '../Album/Album'
 import AlbumForm from '../AlbumForm/AlbumForm'
 import ImageList from '../ImageList/ImageList'
-import { db } from '../../firebaseInit'
+import { db } from '../../firebaseinit'
 
 import styles from './AlbumList.module.css'
 
