@@ -3,7 +3,7 @@ import { collection, addDoc } from 'firebase/firestore'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-import { db } from '../../firebaseInit'
+import { db } from '../../firebaseinit'
 
 import styles from './AlbumForm.module.css'
 
