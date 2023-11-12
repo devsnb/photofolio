@@ -1,0 +1,41 @@
+.formContainer {
+    height: 150px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background: rgb(89, 104, 231);
+    background: linear-gradient(45deg, rgba(89, 104, 231, 1) 0%, rgba(47, 147, 124, 1) 50%, rgba(17, 97, 113, 1) 100%);
+    border-radius: 10px;
+}
+
+/* form inputs */
+.input {
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ebdddf;
+    font-size: 1rem;
+    width: 50%;
+    margin: 0 2%;
+}
+
+.input:focus {
+    outline: 1px solid rebeccapurple;
+}
+
+/* form buttons */
+.btn {
+    width: 80px;
+    margin: 0 1rem;
+    height: 2rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.clearBtn {
+    background-color: #c10751;
+}
+
+.addBtn {
+    background-color: #5721d5;
+}

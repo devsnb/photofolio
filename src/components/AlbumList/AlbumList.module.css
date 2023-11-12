@@ -1,0 +1,48 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContainer>div {
+    width: 75%;
+    margin-top: 20px;
+}
+
+/* container for all the albums */
+.albumContainer {
+    height: auto;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+/* album form container */
+.albumForm {
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #bcb7f5;
+}
+
+.btn {
+    height: 2.5rem;
+    color: white;
+    width: 100px;
+    background-color: rgb(87, 33, 213);
+}

@@ -1,0 +1,30 @@
+.navbar {
+	height: 5rem;
+	background: rgb(68, 60, 203);
+	background: linear-gradient(90deg, rgba(68, 60, 203, 1) 0%, rgba(9, 121, 96, 1) 50%, rgba(10, 133, 158, 1) 100%);
+	color: #b993e4;
+	position: sticky;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 2rem;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.navbar span {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+.coverImage {
+	height: 45px;
+	width: 45px;
+	margin-right: 5px;
+	margin-top: 1rem;
+}

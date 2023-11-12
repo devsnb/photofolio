@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: rgb(9, 6, 61);
+	background: linear-gradient(137deg, rgba(9, 6, 61, 0.9632829373650108) 0%, rgba(17, 17, 175, 1) 40%, rgba(33, 208, 244, 1) 100%);
+	background-attachment: fixed;
+}
+
+/* common styles for all the buttons within the page */
+button {
+	cursor: pointer;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, .24);
+}
+
+/* black background */
+.lightbox-overlay {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+}
+
+/* container */
+.lightbox-container {
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* close button of lightbox to hide image */
+.close-button {
+	position: absolute;
+	top: 10px;
+	padding: 5px 10px;
+	background-color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	left: 46%;
+}
+
+/* image inside the lightbox */
+.lightbox-image {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}

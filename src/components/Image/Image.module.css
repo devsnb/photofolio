@@ -1,0 +1,62 @@
+.imageCard {
+    height: 225px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #736EFE;
+}
+
+.imageCard:hover {
+    cursor: pointer;
+}
+
+.imageBox {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../../assets/images/error.png");
+    background-size: cover;
+    background-color: white;
+}
+
+/* image within image box */
+.imageBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.imageInfo {
+    width: 100%;
+    height: 25px;
+    color: white;
+    padding-left: 0.25rem;
+}
+
+
+/* button inside image card */
+.imageBtn {
+    display: none;
+    float: right;
+    margin: 4px;
+    margin-top: 5px;
+    border-radius: none;
+    color: white;
+}
+
+/* delete button */
+.deleteBtn {
+    background-color: crimson;
+}
+
+/* update button  */
+.editBtn {
+    background-color: #c277e0;
+}
+
+/* showing buttons on hovering */
+.imageCard:hover .imageBtn {
+    display: inline;
+}

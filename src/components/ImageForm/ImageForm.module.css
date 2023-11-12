@@ -1,0 +1,44 @@
+.formContainer {
+    text-align: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background: rgb(89, 104, 231);
+    background: linear-gradient(45deg, rgba(89, 104, 231, 1) 0%, rgba(47, 147, 124, 1) 50%, rgba(17, 97, 113, 1) 100%);
+    border-radius: 10px;
+}
+
+.formContainer>h1 {
+    color: #aba3f5;
+}
+
+.input {
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ebdddf;
+    font-size: 1rem;
+    width: 40%;
+    margin-right: 0.5rem;
+}
+
+.input:focus {
+    outline: 1px solid rebeccapurple;
+}
+
+.btn {
+    margin: 10px;
+    width: 100px;
+    height: 31px;
+    color: white;
+}
+
+/* add button */
+.add {
+    background-color: #5721d5;
+}
+
+/* clear button */
+.clear {
+    background-color: #c10751;
+}
